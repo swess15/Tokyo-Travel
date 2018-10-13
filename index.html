@@ -13,6 +13,13 @@
         border: 3px solid slategray;
         text-align: center;
       }
+      header :hover {
+        background: black;
+        color: white;
+        margin-bottom: 15px;
+        border: 3px solid slategray;
+        text-align: center;
+      }
       nav {
         border: 3px solid slategray;
       }
@@ -26,6 +33,31 @@
         border: 3px solid slategray;
         background-color: slategray;
         color: white;
+      }
+      @media(max-width:800px) {
+        body {
+          box-sizing: border-box;
+          border: 3px solid lightblue;
+        }
+        header {
+          margin-bottom: 15px;
+          border: 3px solid lightblue;
+          text-align: center;
+        }
+        nav {
+          border: 3px solid lightblue;
+        }
+        nav li {
+          color: lightblue;
+        }
+        a {
+          color: blue;
+        }
+        footer {
+          border: 3px solid lightblue;
+          background-color: lightblue;
+          color: white;
+        }
       }
     </style>
   </head>
